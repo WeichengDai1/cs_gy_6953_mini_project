@@ -10,7 +10,7 @@ python train.py
 You can change hyperparameters or architecture of model by using the argparser, for example ```--batch_size 64```.
 For full list of changable hyperparameters, please look into ```code/train.py```
 
-Here are some comparison plots related to some of the final results.
+Here are some comparison plots related to part of the final results.
 
 ![model 1 and 2 val acc and loss](https://user-images.githubusercontent.com/92325124/201567739-d33c446c-c3f2-47f8-b2dd-57b11c851261.png)
 
