@@ -8,7 +8,8 @@ cd cs_gy_6953_mini_project/code
 python train.py
 ```
 You can change hyperparameters or architecture of model by using the argparser, for example ```--batch_size 64```.
-For full list of changable hyperparameters, please look into ```code/train.py```
+
+For a full list of changable hyperparameters, please look into ```code/train.py```
 
 Here are some comparison plots related to part of the final results.
 
