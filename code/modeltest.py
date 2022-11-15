@@ -1,7 +1,7 @@
 """
-train.py
+modeltest.py
 
-training procedure of model for CIFAR-10
+seperate testing procedure of model for CIFAR-10
 
 Reference:
 [1] https://github.com/kuangliu/pytorch-cifar/blob/master/models/resnet.py
@@ -35,7 +35,7 @@ parser.add_argument('--seed', type=int, default=3407,
 parser.add_argument('--root_path', type=str, default='./data',
                     help='data_path')
 parser.add_argument('--model_path', type=str, default='./best_model.pth',
-                    help='data_path')
+                    help='model_path')
 parser.add_argument('--arc_opt', type=int, default=2,
                     help='2: num_planes=[64,128,256,512], num_blocks=[2,1,1,1];\
                     1: num_planes=[32,64,128,256], num_blocks=[2,2,2,2]')
